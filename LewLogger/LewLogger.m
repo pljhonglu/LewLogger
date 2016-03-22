@@ -61,7 +61,7 @@ static NSString	*Lew_verbosityFormatBasic	= @"%@ <%@:%@> %@ %@";
 static NSString	*Lew_verbosityFormatFull	= @"%@ <%p %@:%@ (%@)> %@ %@";
 
 static LewLoggerVerbosity	Lew_verbosity		= LewLoggerVerbosityBasic;
-static LewLoggerSeverity    Lew_displayableSeverity = LewLoggerSeverityAll;
+static LewLoggerSeverity    Lew_displayableSeverity = LewLoggerSeverityDebug|LewLoggerSeverityInfo|LewLoggerSeverityWarn|LewLoggerSeverityError;
 
 + (void)logWithSeverity:(LewLoggerSeverity)severity
               verbosity:(LewLoggerVerbosity)verbosity

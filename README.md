@@ -20,7 +20,7 @@
 
 ```objc
 [LewLogger setVerbosity:LewLoggerVerbosityBasic];
-[LewLogger setDisplayableSeverity:LewLoggerSeverityAll];
+[LewLogger setDisplayableSeverity:LewLoggerSeverityDebug|LewLoggerSeverityInfo|LewLoggerSeverityWarn|LewLoggerSeverityError];
 
 LLogError(@"error log");
 LLogWarn(@"warn log");

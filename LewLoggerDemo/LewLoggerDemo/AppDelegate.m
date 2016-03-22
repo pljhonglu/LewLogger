@@ -20,13 +20,13 @@
     // Override point for customization after application launch.
     
     [LewLogger setVerbosity:LewLoggerVerbosityBasic];
-    [LewLogger setDisplayableSeverity:LewLoggerSeverityAll];
+    [LewLogger setDisplayableSeverity:LewLoggerSeverityDebug|LewLoggerSeverityInfo|LewLoggerSeverityWarn|LewLoggerSeverityError];
     
     LLogError(@"error log");
     LLogWarn(@"warn log");
     LLogInfo(@"info log");
     LLogDebug(@"debug log");
-    
+        
     NSDictionary *dict = @{@"Name"          : @"LewLogger",
                            @"Description"   : @"日志工具类，支持日志分级，支持 unicode 中文显示，支持 XcodeColors 插件。",
                            @"NSSet"         : [NSSet setWithObjects:@(11), @(22) , nil],

@@ -12,8 +12,6 @@ typedef NS_OPTIONS(NSUInteger, LewLoggerSeverity) {
     LewLoggerSeverityInfo = 1 << 1,
     LewLoggerSeverityWarn = 1 << 2,
     LewLoggerSeverityError = 1 << 3,
-    
-    LewLoggerSeverityAll = LewLoggerSeverityDebug|LewLoggerSeverityInfo|LewLoggerSeverityWarn|LewLoggerSeverityError,
 };
 
 typedef NS_ENUM(NSUInteger, LewLoggerVerbosity) {
