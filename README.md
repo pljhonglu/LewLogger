@@ -2,8 +2,8 @@
 日志工具类，支持日志分级，支持 unicode 中文显示，支持 XcodeColors 插件。
 若未安装 XcodeColors 插件，也可以通过 emoji 符号区分日志级别。
 
-![安装XcodeColors](https://github.com/pljhonglu/LewBarChart/blob/master/images/has XcodeColors)
-![未安装XcodeColors](https://github.com/pljhonglu/LewBarChart/blob/master/images/no XcodeColors)
+![安装XcodeColors](https://github.com/pljhonglu/LewLogger/blob/master/images/has XcodeColors)
+![未安装XcodeColors](https://github.com/pljhonglu/LewLogger/blob/master/images/no XcodeColors)
 
 ## 设置日志着色
 
